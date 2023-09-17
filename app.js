@@ -347,7 +347,8 @@ document.addEventListener("DOMContentLoaded", function () {
   // const api_response = fetch("url");
   // const api_response_in_json_format = api_response.json();
   // const required_articles = api_response_in_json_format.articles_array;
-  // const cardContainers = document.querySelectorAll('.card-container');
+  
+  const cardContainers = document.querySelectorAll('.card-container');
 
   cardContainers.forEach((container, index) => {
     const card = container.querySelector(".card");
